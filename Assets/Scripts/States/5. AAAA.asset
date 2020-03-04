@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
+  m_Name: 5. AAAA
+  m_EditorClassIdentifier: 
+  type: Choices
+  inputCode: 
+  choices:
+  - "Diabinho? O que est\xE1 acontecendo? "
+  - "Quer saber, vamos para o pr\xF3ximo enigma."
+  storyText: 
+  nextStates:
+  - {fileID: 11400000, guid: 10dac86f9efb77f48a56c3f2b6917e1e, type: 2}
+  - {fileID: 11400000, guid: a2a5183320789a24a993ac13df4d5fcb, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
+  m_Name: 2. CCCC
+  m_EditorClassIdentifier: 
+  type: Choices
+  inputCode: 
+  choices:
+  - "Que gracinha! Vamos l\xE1, o que eu preciso fazer?"
+  - "Agora deu medo, hein? J\xE1 vi isso em filmes e sempre d\xE1 ruim!"
+  storyText: "Ei! Fique sabendo que sou muito poderoso! Todos temiam minha presen\xE7a
+    antes das almas virem ao mundo! N\xE3o preciso da sua piedade, mas preciso de
+    sua ajuda!"
+  nextStates:
+  - {fileID: 11400000, guid: 88e4f5b6b0952c94395fced2f36f53c6, type: 2}
+  - {fileID: 11400000, guid: 397337266c2739b4194d59189b6ffba8, type: 2}

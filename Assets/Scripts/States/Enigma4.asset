@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
+  m_Name: Enigma4
+  m_EditorClassIdentifier: 
+  type: Input
+  inputCode: 6969
+  choices: []
+  storyText: "Precisamos achar um lugar pr\xF3prio para se estudar e pesquisar. Espero
+    que existam documentos e pesquisas sobre esse livro com seu nome."
+  nextStates:
+  - {fileID: 11400000, guid: 64e8904a65f30ca409bbcc3b5caacce4, type: 2}

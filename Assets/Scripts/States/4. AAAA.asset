@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
+  m_Name: 4. AAAA
+  m_EditorClassIdentifier: 
+  type: Choices
+  inputCode: 
+  choices:
+  - "Voc\xEA precisa me contar mais sobre o que est\xE1 acontecendo."
+  - "Sem tempo, irm\xE3o."
+  storyText: "Ei! Calma, l\xE1, voc\xEA n\xE3o vai me abandonar agora, vai? Trabalhamos
+    bem juntos! Eu j\xE1 estava criando um v\xEDnculo, sabe?"
+  nextStates:
+  - {fileID: 11400000, guid: f80bb9b471ea46b42b9149b5994e290b, type: 2}
+  - {fileID: 11400000, guid: f6e68612fefac72468e16d4aa47d8904, type: 2}

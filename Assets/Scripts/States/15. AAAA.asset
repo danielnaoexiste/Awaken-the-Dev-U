@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
+  m_Name: 15. AAAA
+  m_EditorClassIdentifier: 
+  type: Choices
+  inputCode: 
+  choices:
+  - Reiniciar
+  storyText: "Parab\xE9ns, her\xF3i. Voc\xEA encontrou o altar e est\xE1 pronto para
+    Acordar. Basta depositar suas informa\xE7\xF5es aqui e inscrever-se para o processo
+    seletivo da Dev-U, onde voc\xEA aprender\xE1 a Acordar o Dev-U dentro de voc\xEA!
+    O futuro \xE9 incerto e a sua avetura come\xE7a agora!\r\n\nAwaken the Dev-U!\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: f6e68612fefac72468e16d4aa47d8904, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
+  m_Name: 11. AAAA
+  m_EditorClassIdentifier: 
+  type: Choices
+  inputCode: 
+  choices:
+  - "Argh... agora eu realmente estou preso a voc\xEA. "
+  - "E o que sugere que eu fa\xE7a?"
+  - "E esse livro aqui, meu nome est\xE1 nele. \xC9 uma rel\xEDquia n\xE3o \xE9?"
+  storyText: "Okay.... Isso foi anticlim\xE1tico. Bem... pelo menos eu achei um dos
+    herois... haha....ha...\r\n\nO que fazer...? O que fazer....? Vai ver voc\xEA
+    s\xF3 n\xE3o despertou o poder ainda! \xC9 isso. S\xF3 pode ser isso!\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: fafea28f28fc23044b49aeb2bebd1964, type: 2}
+  - {fileID: 11400000, guid: 8227f60ab7bab8a4d8f28e68ebad5120, type: 2}
+  - {fileID: 11400000, guid: 8227f60ab7bab8a4d8f28e68ebad5120, type: 2}

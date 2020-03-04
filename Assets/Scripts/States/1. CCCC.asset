@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
+  m_Name: 1. CCCC
+  m_EditorClassIdentifier: 
+  type: Choices
+  inputCode: 
+  choices:
+  - Coitadinho! Eu quero te ajudar!
+  - "Ah parceiro, cada um seus problemas, n\xE9?"
+  storyText: "Meu nome \xE9 Devee. Eu sou... eu sou... Bem, n\xE3o vem ao caso o
+    que eu sou. Mas estava sozinho aqui faz um bom tempo, esperando que algu\xE9m
+    pudesse me ajudar a achar os detentores do meu poder."
+  nextStates:
+  - {fileID: 11400000, guid: 2fae22cc8656add43b5efa01f2d89259, type: 2}
+  - {fileID: 11400000, guid: 397337266c2739b4194d59189b6ffba8, type: 2}

@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
   m_Name: 1. BBBB
   m_EditorClassIdentifier: 
-  type: Input
-  inputCode: 9229
-  choices: []
-  storyText: Selecionou B
+  type: Choices
+  inputCode: 
+  choices:
+  - Claro que eu lembro. Mas que ocorrido foi esse?
+  - "Pra falar a verdade, minha mem\xF3ria est\xE1 meio ruim."
+  - "Voc\xEA n\xE3o quer ir direto ao ponto?"
+  storyText: "Como assim, n\xE3o tem certeza?! Voc\xEA est\xE1 vivo e falando comigo!
+    \xC9 obvio que \xE9 um sobrevivente, s\xF3 n\xE3o sabe de que ocorrido.\r\n\nVoc\xEA
+    se sente bem? Lembra-se de tudo? Lembra-se do que comeu hoje?"
   nextStates:
-  - {fileID: 11400000, guid: f6e68612fefac72468e16d4aa47d8904, type: 2}
+  - {fileID: 11400000, guid: 88e4f5b6b0952c94395fced2f36f53c6, type: 2}
+  - {fileID: 11400000, guid: ab79c72e81e377244a93d4ebccf4ce45, type: 2}
+  - {fileID: 11400000, guid: 88e4f5b6b0952c94395fced2f36f53c6, type: 2}

@@ -13,10 +13,15 @@ MonoBehaviour:
   m_Name: 1. AAAA
   m_EditorClassIdentifier: 
   type: Choices
+  inputCode: 
   choices:
-  - Voltar
-  storyText: 'Selecionou AAA
+  - "O que quer que eu fa\xE7a? "
+  - Acho perda de tempo.
+  storyText: 'Gostei da sua acertividade! Sua alma parece forte, acho que pode me
+    ajudar.
 
-'
+
+    O que acha de uma aventura?'
   nextStates:
-  - {fileID: 11400000, guid: f6e68612fefac72468e16d4aa47d8904, type: 2}
+  - {fileID: 11400000, guid: 88e4f5b6b0952c94395fced2f36f53c6, type: 2}
+  - {fileID: 11400000, guid: 397337266c2739b4194d59189b6ffba8, type: 2}

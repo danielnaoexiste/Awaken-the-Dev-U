@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
+  m_Name: Enigma2
+  m_EditorClassIdentifier: 
+  type: Input
+  inputCode: 7391
+  choices: []
+  storyText: "\"Os her\xF3is surgiram das \xE1guas do ver\xE3o, ao oeste desse ponto.
+    Por tr\xEAs dias e tr\xEAs noites acolheram-se em uma pequena cabana, tentando
+    entender o prop\xF3sito da exist\xEAncia. Pouco sabiam sobre suas rel\xEDquias
+    e muito menos sobre si mesmos.\"\r\n\nRel\xEDquias? Eles n\xE3o sabiam quem eram?
+    Acho que seria ideal procurar por essa \"cabana\"!\r"
+  nextStates:
+  - {fileID: 11400000, guid: d78cc77ec4195bf44865b95c978b4c7b, type: 2}

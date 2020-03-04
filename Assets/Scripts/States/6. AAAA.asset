@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6bf1cc91d18ff409c2a8d334031051, type: 3}
+  m_Name: 6. AAAA
+  m_EditorClassIdentifier: 
+  type: Choices
+  inputCode: 
+  choices:
+  - "Muito mais claro... mas n\xE3o muito. Ok, vou continuar te ajudando."
+  storyText: "Bem, eu prometi. Eu sou um dos criadores desse mundo. Hoje sou apenas
+    isso que v\xEA... uma voz presa no corpo de um diabinho sem poder algum, que
+    n\xE3o pode nem se mover sozinho.\r\nPrecisamos encontrar os her\xF3is que carregam
+    meu poder em suas almas. S\xF3 assim terei conclu\xEDdo minha miss\xE3o de prepar\xE1-los
+    para o que o futuro promete."
+  nextStates:
+  - {fileID: 11400000, guid: a2a5183320789a24a993ac13df4d5fcb, type: 2}

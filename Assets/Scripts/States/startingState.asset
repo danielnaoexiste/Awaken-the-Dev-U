@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: startingState
   m_EditorClassIdentifier: 
   type: Choices
+  inputCode: 
   choices:
-  - Ir para A!
-  - Ir para B!
-  storyText: 'Hell yeah its working!!!
-
-
-    Kinda?'
+  - Sim.
+  - "Acho que sou, n\xE3o tenho certeza."
+  - "Quem \xE9 voc\xEA?"
+  storyText: "Ah... J\xE1 estava demorando at\xE9 que algu\xE9m aparecesse por aqui.
+    \n\nVoc\xEA \xE9 um sobrevivente?\r"
   nextStates:
   - {fileID: 11400000, guid: 56fa2e3cec2654f46bd16fead91cb721, type: 2}
   - {fileID: 11400000, guid: 1b67b6bcf78ebfb4284a60d3eec8b303, type: 2}
+  - {fileID: 11400000, guid: 3ec3265dcddec6a489508c0a9a586b54, type: 2}
