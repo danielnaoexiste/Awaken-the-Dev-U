@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 1. BBBB
   m_EditorClassIdentifier: 
   type: Input
+  inputCode: 9229
   choices: []
   storyText: Selecionou B
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: f6e68612fefac72468e16d4aa47d8904, type: 2}

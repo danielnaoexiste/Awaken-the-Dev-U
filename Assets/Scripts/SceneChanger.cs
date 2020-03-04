@@ -5,8 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public void ChangeScene() 
+    public void ChangeScene(string path) 
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(path);
+    }
+
+    public void OpenSocial(string social) {
+        Application.OpenURL(social);
+    }
+
+    public void Quit() {
+        Application.Quit();
     }
 }
